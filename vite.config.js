@@ -52,8 +52,6 @@ export default defineConfig(({ mode }) => {
       rollupOptions: {
         output: {
          manualChunks: {
-  react: ['react', 'react-dom'], // ⭐ IMPORTANT
-
   ui: [
     'framer-motion',
     'react-icons',
