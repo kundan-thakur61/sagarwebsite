@@ -384,7 +384,7 @@ function PremiumCardSection() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Header with animation */}
+        {/* Header with animation hj */}
         <div className="text-center mb-16 animate-fade-in">
           <div className="inline-block mb-4">
             <span className="bg-gradient-to-r from-purple-600 to-pink-600 text-transparent bg-clip-text text-sm font-bold uppercase tracking-wider">

@@ -46,7 +46,7 @@
     -webkit-tap-highlight-color: transparent;
   }
 
-  /* Focus visible for accessibility */
+  /* Focus visible for accessibility hj*/
   *:focus-visible {
     @apply outline-none ring-2 ring-primary-500 ring-offset-2;
   }

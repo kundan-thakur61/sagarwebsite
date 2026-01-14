@@ -16,7 +16,7 @@ const ShipmentTracking = ({ orderId, waybill, className = '' }) => {
         setLoading(true);
         setError(null);
 
-        // Call Shiprocket tracking API
+        // Call Shiprocket tracking API integration
         const data = await trackShipment(orderId, 'regular');
 
         if (data.success) {

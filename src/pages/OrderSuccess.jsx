@@ -20,7 +20,7 @@ const OrderSuccess = () => {
   const [paymentStatus, setPaymentStatus] = useState(null);
   const [isRefreshing, setIsRefreshing] = useState(false);
 
-  // Fetch payment status
+  // Fetch payment status hj
   const fetchPaymentStatus = useCallback(async () => {
     try {
       const response = await paymentAPI.getPaymentStatus(id);

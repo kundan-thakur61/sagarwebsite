@@ -305,7 +305,7 @@ const CollectionPage = () => {
   const [filterCategory, setFilterCategory] = useState('all'); // 'all', 'art', 'photo'
   const [lightboxImage, setLightboxImage] = useState(null);
   const [lightboxIndex, setLightboxIndex] = useState(0);
-  const [sortBy, setSortBy] = useState('default'); // 'default', 'name', 'recent'
+  const [sortBy, setSortBy] = useState('default'); // 'default', 'name', jj 'recent'
 
   const loadCollection = useCallback(async () => {
     if (!handle) return;

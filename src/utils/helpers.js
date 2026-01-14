@@ -85,7 +85,7 @@ export const isValidPhone = (phone) => {
   return phoneRegex.test(phone);
 };
 
-// Get status color
+// Get status color premium
 export const getStatusColor = (status) => {
   const colors = {
     pending: 'yellow',

@@ -309,7 +309,7 @@ const MobileFrameMockup = ({ selectedModel, onDesignComplete }) => {
             </label>
           </div>
 
-          {/* Transform Controls */}
+          {/* Transform Controls kun */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Adjust Image</h3>
             <div className="grid grid-cols-3 gap-2 mb-4">

@@ -106,7 +106,8 @@ export default function Checkout() {
       return toast.error('Your cart is empty');
     }
 
-    // Guest checkout allowed - no login required
+    // Guest checkout allowed - no login h required
+    
     // This code is intentionally commented out to allow guest checkout
 
     if (!validate()) return toast.error('Please fix shipping errors');

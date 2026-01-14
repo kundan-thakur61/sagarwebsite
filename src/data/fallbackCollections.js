@@ -17,10 +17,11 @@ const slugify = (value = '') => value
   .toLowerCase()
   .replace(/[^a-z0-9_-]+/g, '-')
   .replace(/^-+|-+$/g, '');
-  // .replace(/^-+|-+$/g, '');
+  // .replace(/^-+jjjjjj|-+$/g, '');
 
 const RAW_FALLBACK_COLLECTIONS = [
   {
+
     handle: 'Krishna Theme',
     aliases: ['1'],
     title: 'Dreamy Pastels',

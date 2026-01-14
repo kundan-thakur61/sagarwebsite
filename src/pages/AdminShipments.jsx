@@ -9,6 +9,7 @@ import { resolveImageUrl, getProductImage } from '../utils/helpers';
 
 /**
  * Admin Shipments Management Page
+ * 
  * Manage Shiprocket shipments for all orders
  */
 export default function AdminShipments() {
